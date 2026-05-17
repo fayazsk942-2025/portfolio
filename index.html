@@ -3,15 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fayaz Portfolio</title>
+    <title>SHAIK FAYAZ BASHA | AI/ML Engineer</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 <body>
 
     <!-- Navbar -->
     <nav>
-        <h1>Fayaz SK</h1>
+
+        <div class="logo">FAYAZ AI</div>
 
         <ul>
             <li><a href="#home">Home</a></li>
@@ -20,51 +26,102 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+
     </nav>
 
-    <!-- Home Section -->
-    <section id="home" class="home">
+    <!-- Hero Section -->
+    <section class="hero" id="home">
 
-        <h2>Hello, I'm</h2>
+    <div class="hero-container">
 
-        <h1>Fayaz SK</h1>
+        <!-- Left Content -->
+        <div class="hero-content">
 
-        <h3>AI/ML Developer & Full Stack Developer</h3>
+            <h3>Hello, I'm</h3>
 
-        <button>Download Resume</button>
+            <h1>SHAIK FAYAZ BASHA</h1>
 
-    </section>
+            <h2>
+                <span class="typing"></span>
+            </h2>
 
-    <!-- About Section -->
+            <p>
+                AI/ML Engineer specializing in Machine Learning,
+                Deep Learning, Computer Vision, NLP,
+                RAG Chatbots and Full Stack Development.
+            </p>
+
+            <div class="buttons">
+
+                <a href="resume.pdf" download class="btn">
+                    Download Resume
+                </a>
+
+                <a href="https://github.com/fayazsk942-2025"
+                target="_blank" class="btn secondary">
+                    GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/in/fayazsk942"
+                target="_blank" class="btn secondary">
+                    LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Right Image -->
+        <div class="hero-image">
+
+            <img src="profile.png" alt="Fayaz Profile">
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- About -->
     <section id="about">
 
-        <h2>About Me</h2>
+        <h2 class="section-title">About Me</h2>
 
-        <p>
-            I am an AI/ML Developer skilled in Python,
-            Machine Learning, Deep Learning, OpenCV,
-            NLP, Flask, Django and Full Stack Development.
-        </p>
+        <div class="about-card">
+
+            <p>
+                Results-driven AI/ML Engineer and Python Developer
+                with experience in Machine Learning, Deep Learning,
+                Computer Vision, Chatbots, RAG Systems,
+                and Django-based applications.
+
+                Passionate about building intelligent AI systems
+                and real-world applications using cutting-edge technologies.
+            </p>
+
+        </div>
 
     </section>
 
     <!-- Skills -->
     <section id="skills">
 
-        <h2>Skills</h2>
+        <h2 class="section-title">Skills</h2>
 
         <div class="skills-container">
 
-            <div class="card">Python</div>
-            <div class="card">Machine Learning</div>
-            <div class="card">Deep Learning</div>
-            <div class="card">OpenCV</div>
-            <div class="card">NLP</div>
-            <div class="card">Flask</div>
-            <div class="card">Django</div>
-            <div class="card">HTML</div>
-            <div class="card">CSS</div>
-            <div class="card">JavaScript</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Machine Learning</div>
+            <div class="skill-card">Deep Learning</div>
+            <div class="skill-card">OpenCV</div>
+            <div class="skill-card">NLP</div>
+            <div class="skill-card">TensorFlow</div>
+            <div class="skill-card">Django</div>
+            <div class="skill-card">Flask</div>
+            <div class="skill-card">YOLOv8</div>
+            <div class="skill-card">RAG Chatbots</div>
+            <div class="skill-card">LLMs</div>
+            <div class="skill-card">MySQL</div>
 
         </div>
 
@@ -73,21 +130,54 @@
     <!-- Projects -->
     <section id="projects">
 
-        <h2>Projects</h2>
+        <h2 class="section-title">Projects</h2>
 
-        <div class="project-card">
-            <h3>Fake News Detection</h3>
-            <p>Machine Learning based fake news prediction system.</p>
-        </div>
+        <div class="projects-container">
 
-        <div class="project-card">
-            <h3>AI Attendance System</h3>
-            <p>Face recognition attendance using OpenCV and Deep Learning.</p>
-        </div>
+            <div class="project-card">
 
-        <div class="project-card">
-            <h3>RAG Chatbot</h3>
-            <p>AI chatbot using Retrieval Augmented Generation.</p>
+                <h3>Multimodal Emotion Detection System</h3>
+
+                <p>
+                    AI system that detects emotions using facial
+                    expressions, voice analysis, and machine learning models.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>Microtherapy Suggestion System</h3>
+
+                <p>
+                    AI-based mental wellness support system providing
+                    emotion-based therapy suggestions and chatbot interaction.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>AI Music Recommendation Chatbot</h3>
+
+                <p>
+                    Intelligent chatbot recommending music based on
+                    user emotions and preferences using NLP techniques.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>Mail Alert System</h3>
+
+                <p>
+                    Automated email alert system integrated with AI
+                    monitoring and real-time notifications.
+                </p>
+
+            </div>
+
         </div>
 
     </section>
@@ -95,9 +185,30 @@
     <!-- Contact -->
     <section id="contact">
 
-        <h2>Contact Me</h2>
+        <h2 class="section-title">Contact Me</h2>
 
-        <p>Email: yourmail@gmail.com</p>
+        <div class="contact-card">
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                fayazsk942@gmail.com
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +91 7396503583
+            </p>
+
+            <p>
+                <i class="fa-brands fa-linkedin"></i>
+
+                <a href="https://www.linkedin.com/in/fayazsk942"
+                target="_blank">
+                    linkedin.com/in/fayazsk942
+                </a>
+            </p>
+
+        </div>
 
     </section>
 
